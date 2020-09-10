@@ -1,0 +1,2071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MacroSettings</class>
+ <widget class="QDialog" name="MacroSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>776</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <property name="leftMargin">
+    <number>3</number>
+   </property>
+   <property name="topMargin">
+    <number>3</number>
+   </property>
+   <property name="rightMargin">
+    <number>3</number>
+   </property>
+   <property name="bottomMargin">
+    <number>3</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="topMargin">
+       <number>2</number>
+      </property>
+      <property name="bottomMargin">
+       <number>2</number>
+      </property>
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Load</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>309</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Transmit Macros</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>2</number>
+      </property>
+      <property name="topMargin">
+       <number>2</number>
+      </property>
+      <property name="rightMargin">
+       <number>4</number>
+      </property>
+      <property name="bottomMargin">
+       <number>2</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>4</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>2</number>
+      </property>
+      <item row="22" column="3">
+       <widget class="QSpinBox" name="sbTime_M29">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="leCaption_M3">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="21" column="3">
+       <widget class="QSpinBox" name="sbTime_M28">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="leCaption_M2">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QSpinBox" name="sbTime_M6">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="24" column="0">
+       <widget class="QLineEdit" name="leMacro_M31"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLineEdit" name="leMacro_M5"/>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLineEdit" name="leMacro_M11"/>
+      </item>
+      <item row="21" column="1">
+       <widget class="QLineEdit" name="leCaption_M28">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M28</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="pbRun_M2">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="3">
+       <widget class="QSpinBox" name="sbTime_M9">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M24">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="1">
+       <widget class="QLineEdit" name="leCaption_M24">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M24</string>
+        </property>
+       </widget>
+      </item>
+      <item row="19" column="2">
+       <widget class="QPushButton" name="pbRun_M26">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M26</string>
+        </property>
+       </widget>
+      </item>
+      <item row="24" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M31">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="3">
+       <widget class="QSpinBox" name="sbTime_M23">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="2">
+       <widget class="QPushButton" name="pbRun_M24">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M24</string>
+        </property>
+       </widget>
+      </item>
+      <item row="20" column="2">
+       <widget class="QPushButton" name="pbRun_M27">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M27</string>
+        </property>
+       </widget>
+      </item>
+      <item row="24" column="2">
+       <widget class="QPushButton" name="pbRun_M31">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M31</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QPushButton" name="pbRun_M5">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M4">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="24" column="3">
+       <widget class="QSpinBox" name="sbTime_M31">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QSpinBox" name="sbTime_M2">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M22">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M11">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="3">
+       <widget class="QSpinBox" name="sbTime_M24">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M2">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QLineEdit" name="leCaption_M12">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M12</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QLineEdit" name="leCaption_M11">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M11</string>
+        </property>
+       </widget>
+      </item>
+      <item row="22" column="1">
+       <widget class="QLineEdit" name="leCaption_M29">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M29</string>
+        </property>
+       </widget>
+      </item>
+      <item row="23" column="2">
+       <widget class="QPushButton" name="pbRun_M30">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M30</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M20">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="19" column="1">
+       <widget class="QLineEdit" name="leCaption_M26">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M26</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="2">
+       <widget class="QPushButton" name="pbRun_M22">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M22</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="leCaption_M1">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="leMacro_M2"/>
+      </item>
+      <item row="4" column="3">
+       <widget class="QSpinBox" name="sbTime_M5">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="0">
+       <widget class="QLineEdit" name="leMacro_M24"/>
+      </item>
+      <item row="2" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M3">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="leCaption_M4">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="2">
+       <widget class="QPushButton" name="pbRun_M11">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M11</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLineEdit" name="leMacro_M10"/>
+      </item>
+      <item row="15" column="0">
+       <widget class="QLineEdit" name="leMacro_M22"/>
+      </item>
+      <item row="6" column="3">
+       <widget class="QSpinBox" name="sbTime_M7">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2">
+       <widget class="QPushButton" name="pbRun_M8">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLineEdit" name="leMacro_M3"/>
+      </item>
+      <item row="16" column="1">
+       <widget class="QLineEdit" name="leCaption_M23">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M23</string>
+        </property>
+       </widget>
+      </item>
+      <item row="18" column="1">
+       <widget class="QLineEdit" name="leCaption_M25">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M25</string>
+        </property>
+       </widget>
+      </item>
+      <item row="23" column="1">
+       <widget class="QLineEdit" name="leCaption_M30">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M30</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="2">
+       <widget class="QPushButton" name="pbRun_M21">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M21</string>
+        </property>
+       </widget>
+      </item>
+      <item row="20" column="0">
+       <widget class="QLineEdit" name="leMacro_M27"/>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="leCaption_M5">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="pbRun_M3">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="20" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M27">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QSpinBox" name="sbTime_M3">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M8">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="leCaption_M7">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M7</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLineEdit" name="leMacro_M9"/>
+      </item>
+      <item row="3" column="3">
+       <widget class="QSpinBox" name="sbTime_M4">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="2">
+       <widget class="QPushButton" name="pbRun_M12">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M12</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="0">
+       <widget class="QLineEdit" name="leMacro_M23"/>
+      </item>
+      <item row="14" column="1">
+       <widget class="QLineEdit" name="leCaption_M21">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M21</string>
+        </property>
+       </widget>
+      </item>
+      <item row="20" column="1">
+       <widget class="QLineEdit" name="leCaption_M27">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M27</string>
+        </property>
+       </widget>
+      </item>
+      <item row="19" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M26">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="23" column="0">
+       <widget class="QLineEdit" name="leMacro_M30"/>
+      </item>
+      <item row="16" column="2">
+       <widget class="QPushButton" name="pbRun_M23">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M23</string>
+        </property>
+       </widget>
+      </item>
+      <item row="21" column="2">
+       <widget class="QPushButton" name="pbRun_M28">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M28</string>
+        </property>
+       </widget>
+      </item>
+      <item row="24" column="1">
+       <widget class="QLineEdit" name="leCaption_M31">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M31</string>
+        </property>
+       </widget>
+      </item>
+      <item row="19" column="3">
+       <widget class="QSpinBox" name="sbTime_M26">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QSpinBox" name="sbTime_M1">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M5">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M10">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLineEdit" name="leMacro_M12"/>
+      </item>
+      <item row="6" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M7">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="21" column="0">
+       <widget class="QLineEdit" name="leMacro_M28"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLineEdit" name="leMacro_M4"/>
+      </item>
+      <item row="13" column="2">
+       <widget class="QPushButton" name="pbRun_M20">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M20</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M9">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="22" column="0">
+       <widget class="QLineEdit" name="leMacro_M29"/>
+      </item>
+      <item row="9" column="2">
+       <widget class="QPushButton" name="pbRun_M10">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M10</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLineEdit" name="leMacro_M1"/>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="pbRun_M4">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLineEdit" name="leCaption_M8">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="3">
+       <widget class="QSpinBox" name="sbTime_M11">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="leCaption_M6">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M6">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QLineEdit" name="leCaption_M10">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M10</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLineEdit" name="leCaption_M9">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M9</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="3">
+       <widget class="QSpinBox" name="sbTime_M12">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="2">
+       <widget class="QPushButton" name="pbRun_M9">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M9</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="3">
+       <widget class="QSpinBox" name="sbTime_M10">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="19" column="0">
+       <widget class="QLineEdit" name="leMacro_M26"/>
+      </item>
+      <item row="11" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M12">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="18" column="0">
+       <widget class="QLineEdit" name="leMacro_M25"/>
+      </item>
+      <item row="23" column="3">
+       <widget class="QSpinBox" name="sbTime_M30">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="18" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M25">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="21" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M28">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="22" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M29">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pbRun_M1">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="22" column="2">
+       <widget class="QPushButton" name="pbRun_M29">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M29</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QPushButton" name="pbRun_M7">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M7</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="3">
+       <widget class="QSpinBox" name="sbTime_M20">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M1">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLineEdit" name="leMacro_M7"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLineEdit" name="leMacro_M6"/>
+      </item>
+      <item row="7" column="3">
+       <widget class="QSpinBox" name="sbTime_M8">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="1">
+       <widget class="QLineEdit" name="leCaption_M20">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M20</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QPushButton" name="pbRun_M6">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="1">
+       <widget class="QLineEdit" name="leCaption_M22">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M22</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M21">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M23">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLineEdit" name="leMacro_M6_2"/>
+      </item>
+      <item row="15" column="3">
+       <widget class="QSpinBox" name="sbTime_M22">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="20" column="3">
+       <widget class="QSpinBox" name="sbTime_M27">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="18" column="3">
+       <widget class="QSpinBox" name="sbTime_M25">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="0">
+       <widget class="QLineEdit" name="leMacro_M21"/>
+      </item>
+      <item row="13" column="0">
+       <widget class="QLineEdit" name="leMacro_M20"/>
+      </item>
+      <item row="14" column="3">
+       <widget class="QSpinBox" name="sbTime_M21">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="minimum">
+         <number>100</number>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+        <property name="value">
+         <number>1000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="18" column="2">
+       <widget class="QPushButton" name="pbRun_M25">
+        <property name="minimumSize">
+         <size>
+          <width>55</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>55</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>M25</string>
+        </property>
+       </widget>
+      </item>
+      <item row="23" column="4">
+       <widget class="QCheckBox" name="cbRepeat_M30">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="0" colspan="5">
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>leMacro_M1</tabstop>
+  <tabstop>leCaption_M1</tabstop>
+  <tabstop>pbRun_M1</tabstop>
+  <tabstop>sbTime_M1</tabstop>
+  <tabstop>cbRepeat_M1</tabstop>
+  <tabstop>leMacro_M2</tabstop>
+  <tabstop>leCaption_M2</tabstop>
+  <tabstop>pbRun_M2</tabstop>
+  <tabstop>sbTime_M2</tabstop>
+  <tabstop>cbRepeat_M2</tabstop>
+  <tabstop>leMacro_M3</tabstop>
+  <tabstop>leCaption_M3</tabstop>
+  <tabstop>pbRun_M3</tabstop>
+  <tabstop>sbTime_M3</tabstop>
+  <tabstop>cbRepeat_M3</tabstop>
+  <tabstop>leMacro_M4</tabstop>
+  <tabstop>leCaption_M4</tabstop>
+  <tabstop>pbRun_M4</tabstop>
+  <tabstop>sbTime_M4</tabstop>
+  <tabstop>cbRepeat_M4</tabstop>
+  <tabstop>leMacro_M5</tabstop>
+  <tabstop>leCaption_M5</tabstop>
+  <tabstop>pbRun_M5</tabstop>
+  <tabstop>sbTime_M5</tabstop>
+  <tabstop>cbRepeat_M5</tabstop>
+  <tabstop>leMacro_M6</tabstop>
+  <tabstop>leCaption_M6</tabstop>
+  <tabstop>pbRun_M6</tabstop>
+  <tabstop>sbTime_M6</tabstop>
+  <tabstop>cbRepeat_M6</tabstop>
+  <tabstop>leMacro_M7</tabstop>
+  <tabstop>leCaption_M7</tabstop>
+  <tabstop>pbRun_M7</tabstop>
+  <tabstop>sbTime_M7</tabstop>
+  <tabstop>cbRepeat_M7</tabstop>
+  <tabstop>leMacro_M6_2</tabstop>
+  <tabstop>leCaption_M8</tabstop>
+  <tabstop>pbRun_M8</tabstop>
+  <tabstop>sbTime_M8</tabstop>
+  <tabstop>cbRepeat_M8</tabstop>
+  <tabstop>leMacro_M9</tabstop>
+  <tabstop>leCaption_M9</tabstop>
+  <tabstop>pbRun_M9</tabstop>
+  <tabstop>sbTime_M9</tabstop>
+  <tabstop>cbRepeat_M9</tabstop>
+  <tabstop>leMacro_M10</tabstop>
+  <tabstop>leCaption_M10</tabstop>
+  <tabstop>pbRun_M10</tabstop>
+  <tabstop>sbTime_M10</tabstop>
+  <tabstop>cbRepeat_M10</tabstop>
+  <tabstop>leMacro_M11</tabstop>
+  <tabstop>leCaption_M11</tabstop>
+  <tabstop>pbRun_M11</tabstop>
+  <tabstop>sbTime_M11</tabstop>
+  <tabstop>cbRepeat_M11</tabstop>
+  <tabstop>leMacro_M12</tabstop>
+  <tabstop>leCaption_M12</tabstop>
+  <tabstop>pbRun_M12</tabstop>
+  <tabstop>sbTime_M12</tabstop>
+  <tabstop>cbRepeat_M12</tabstop>
+  <tabstop>leMacro_M20</tabstop>
+  <tabstop>leCaption_M20</tabstop>
+  <tabstop>pbRun_M20</tabstop>
+  <tabstop>sbTime_M20</tabstop>
+  <tabstop>cbRepeat_M20</tabstop>
+  <tabstop>leMacro_M21</tabstop>
+  <tabstop>leCaption_M21</tabstop>
+  <tabstop>pbRun_M21</tabstop>
+  <tabstop>sbTime_M21</tabstop>
+  <tabstop>cbRepeat_M21</tabstop>
+  <tabstop>leMacro_M22</tabstop>
+  <tabstop>leCaption_M22</tabstop>
+  <tabstop>pbRun_M22</tabstop>
+  <tabstop>sbTime_M22</tabstop>
+  <tabstop>cbRepeat_M22</tabstop>
+  <tabstop>leMacro_M23</tabstop>
+  <tabstop>leCaption_M23</tabstop>
+  <tabstop>pbRun_M23</tabstop>
+  <tabstop>sbTime_M23</tabstop>
+  <tabstop>cbRepeat_M23</tabstop>
+  <tabstop>leMacro_M24</tabstop>
+  <tabstop>leCaption_M24</tabstop>
+  <tabstop>pbRun_M24</tabstop>
+  <tabstop>sbTime_M24</tabstop>
+  <tabstop>cbRepeat_M24</tabstop>
+  <tabstop>leMacro_M25</tabstop>
+  <tabstop>leCaption_M25</tabstop>
+  <tabstop>pbRun_M25</tabstop>
+  <tabstop>sbTime_M25</tabstop>
+  <tabstop>cbRepeat_M25</tabstop>
+  <tabstop>leMacro_M26</tabstop>
+  <tabstop>leCaption_M26</tabstop>
+  <tabstop>pbRun_M26</tabstop>
+  <tabstop>sbTime_M26</tabstop>
+  <tabstop>cbRepeat_M26</tabstop>
+  <tabstop>leMacro_M27</tabstop>
+  <tabstop>leCaption_M27</tabstop>
+  <tabstop>pbRun_M27</tabstop>
+  <tabstop>sbTime_M27</tabstop>
+  <tabstop>cbRepeat_M27</tabstop>
+  <tabstop>leMacro_M28</tabstop>
+  <tabstop>leCaption_M28</tabstop>
+  <tabstop>pbRun_M28</tabstop>
+  <tabstop>sbTime_M28</tabstop>
+  <tabstop>cbRepeat_M28</tabstop>
+  <tabstop>leMacro_M29</tabstop>
+  <tabstop>leCaption_M29</tabstop>
+  <tabstop>pbRun_M29</tabstop>
+  <tabstop>sbTime_M29</tabstop>
+  <tabstop>cbRepeat_M29</tabstop>
+  <tabstop>leMacro_M30</tabstop>
+  <tabstop>leCaption_M30</tabstop>
+  <tabstop>pbRun_M30</tabstop>
+  <tabstop>sbTime_M30</tabstop>
+  <tabstop>cbRepeat_M30</tabstop>
+  <tabstop>leMacro_M31</tabstop>
+  <tabstop>leCaption_M31</tabstop>
+  <tabstop>pbRun_M31</tabstop>
+  <tabstop>sbTime_M31</tabstop>
+  <tabstop>cbRepeat_M31</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
